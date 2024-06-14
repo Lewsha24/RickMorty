@@ -4,7 +4,7 @@ import {useLocation, useNavigate} from "react-router-dom";
 import {useAuth} from "../Context/AuthContext";
 
 
-const LoginComponent = ({}) => {
+export const LoginComponent = ({}) => {
     const auth = useAuth()
     const location = useLocation()
     const navigate = useNavigate()
@@ -60,5 +60,3 @@ const LoginComponent = ({}) => {
         </Container>
     )
 }
-
-export default LoginComponent
