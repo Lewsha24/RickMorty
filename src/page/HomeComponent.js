@@ -1,7 +1,8 @@
 import React from 'react';
-import {Container, Row} from "react-bootstrap";
+import {Container} from "react-bootstrap";
 
-const HomeComponent = () => {
+
+function HomeComponent ()  {
     return (
         <>
            <Container>

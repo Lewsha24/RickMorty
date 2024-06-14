@@ -2,7 +2,7 @@ import React from "react";
 import {Col, Container, Row} from "react-bootstrap";
 import {useLocation, useParams} from "react-router-dom";
 
-const HeroIdComponent = () => {
+export const HeroIdComponent = () => {
     const location = useLocation()
     return (
         <Container>
@@ -22,5 +22,3 @@ const HeroIdComponent = () => {
         </Container>
     )
 }
-
-export default HeroIdComponent;

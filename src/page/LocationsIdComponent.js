@@ -2,8 +2,9 @@ import React from "react";
 import {Col, Container, Row} from "react-bootstrap";
 import {useLocation} from "react-router-dom";
 
-const LocationsIdComponent = () => {
+export const LocationsIdComponent = () => {
     const location = useLocation()
+    console.log(location.state)
     return (
         <Container>
             <h1 className="d-flex justify-content-center mt-5"> Hero {location.state.name} </h1>
@@ -22,5 +23,3 @@ const LocationsIdComponent = () => {
         </Container>
     )
 }
-
-export default LocationsIdComponent;
