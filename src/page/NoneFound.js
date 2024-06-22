@@ -1,7 +1,7 @@
 import React from 'react';
 import {Container} from "react-bootstrap";
 
-export  const NoneFound = () => {
+const NoneFound = () => {
     return (
         <>
             <Container>
@@ -10,3 +10,5 @@ export  const NoneFound = () => {
         </>
     )
 }
+
+export default NoneFound
