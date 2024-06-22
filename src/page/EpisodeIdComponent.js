@@ -2,7 +2,7 @@ import React from "react";
 import {Col, Container, Row} from "react-bootstrap";
 import {useLocation} from "react-router-dom";
 
-export  const EpisodeIdComponent = () => {
+const LocationsIdComponent = () => {
     const location = useLocation()
     return (
         <Container>
@@ -23,3 +23,5 @@ export  const EpisodeIdComponent = () => {
         </Container>
     )
 }
+
+export default LocationsIdComponent;
